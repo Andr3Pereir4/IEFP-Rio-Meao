@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proposta académica de reformulação do website IEFP Rio Meão.">
+
+    <title>IEFP Rio Meão | Projeto académico</title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- O checkbox controla o modo noturno, sem JavaScript. -->
+    <input type="checkbox" id="modo-noturno" class="controlo-tema">
+
+    <div class="site">
+
+        <!-- Cabeçalho -->
+        <header class="cabecalho">
+
+            <div class="container linha-cabecalho">
+
+                <a class="marca" href="#inicio" aria-label="IEFP Rio Meão - início">
+                    <span class="simbolo-marca">IEFP</span>
+                    <span>Rio Meão</span>
+                </a>
+
+                <nav aria-label="Navegação principal">
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#formacoes">Formações</a>
+                    <a href="#noticias">Notícias</a>
+                    <a href="#contactos">Contactos</a>
+                </nav>
+
+                <label for="modo-noturno" class="alternar-tema">
+                    ☀ / ☾
+                    <span class="sr-only">Alternar entre modo claro e escuro</span>
+                </label>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <!-- Página inicial -->
+            <section id="inicio" class="hero">
+
+                <div class="container hero-flex">
+
+                    <div class="hero-texto">
+
+                        <p class="sobretitulo">FORMAÇÃO E OPORTUNIDADES</p>
+
+                        <h1>O teu futuro começa aqui.</h1>
+
+                        <p>
+                            Descobre caminhos para aprender, desenvolver competências
+                            e preparar o teu futuro profissional.
+                        </p>
+
+                        <div class="acoes">
+                            <a class="botao" href="#formacoes">Explorar formações</a>
+                            <a class="botao botao-contorno" href="#contactos">Contactar</a>
+                        </div>
+
+                    </div>
+
+                    <!-- Nova ilustração da página inicial -->
+                    <div class="hero-visual" role="img"
+                        aria-label="Ilustração sobre aprendizagem e formação">
+
+                        <img src="img/images 1.png" alt="Imagem Ilustrativa do IEFP">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Sobre nós -->
+            <section id="sobre" class="secao">
+
+                <div class="container sobre-flex">
+
+                    <!-- Nova ilustração sobre objetivos profissionais -->
+                    <div class="sobre-ilustracao">
+
+                        <img src="img/IFDP-1-1095x616-1-1024x576 1.png"
+                            alt="Ilustração de objetivos e desenvolvimento profissional">
+
+                    </div>
+
+                    <div class="sobre-texto">
+
+                        <p class="sobretitulo">SOBRE NÓS</p>
+
+                        <h2>Conhece o centro de Rio Meão</h2>
+
+                        <p>
+                            O Serviço de Formação Profissional de Rio Meão faz parte
+                            da rede do IEFP e apoia percursos de formação e qualificação profissional.
+                        </p>
+
+                        <h3>A nossa missão</h3>
+
+                        <p>
+                            Contribuir para o desenvolvimento de competências e para
+                            uma melhor preparação para o mercado de trabalho.
+                        </p>
+
+                        <h3>Os nossos objetivos</h3>
+
+                        <p>
+                            Facilitar o acesso à informação sobre formação, valorizar
+                            a aprendizagem ao longo da vida e orientar os interessados
+                            para os serviços oficiais.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Formações -->
+            <section id="formacoes" class="secao secao-alternativa">
+
+                <div class="container">
+
+                    <p class="sobretitulo">OFERTA FORMATIVA</p>
+
+                    <h2>Explora áreas de formação</h2>
+
+                    <p class="introducao">
+                        Cursos ilustrativos para demonstrar o projeto. Nomes e durações
+                        são exemplos e não representam ofertas confirmadas do centro.
+                    </p>
+
+                    <div class="cartoes">
+
+                        <article class="cartao">
+
+                            <div class="cartao-icone">💻</div>
+
+                            <div class="cartao-corpo">
+
+                                <p class="area">TECNOLOGIA</p>
+                                <h3>Introdução à Informática</h3>
+                                <p><strong>Duração:</strong> 50 horas (exemplo)</p>
+
+                                <p>
+                                    Aprende conceitos essenciais de informática
+                                    e ferramentas digitais.
+                                </p>
+
+                                <a href="#detalhes-cursos">Saber mais →</a>
+
+                            </div>
+
+                        </article>
+
+                        <article class="cartao">
+
+                            <div class="cartao-icone">🩺</div>
+
+                            <div class="cartao-corpo">
+
+                                <p class="area">SAÚDE</p>
+                                <h3>Apoio na Área da Saúde</h3>
+                                <p><strong>Duração:</strong> 100 horas (exemplo)</p>
+
+                                <p>
+                                    Explora noções básicas de apoio e organização
+                                    em contextos de saúde.
+                                </p>
+
+                                <a href="#detalhes-cursos">Saber mais →</a>
+
+                            </div>
+
+                        </article>
+
+                        <article class="cartao">
+
+                            <div class="cartao-icone">📊</div>
+
+                            <div class="cartao-corpo">
+
+                                <p class="area">GESTÃO</p>
+                                <h3>Gestão Administrativa</h3>
+                                <p><strong>Duração:</strong> 75 horas (exemplo)</p>
+
+                                <p>
+                                    Conhece tarefas administrativas e princípios
+                                    de organização.
+                                </p>
+
+                                <a href="#detalhes-cursos">Saber mais →</a>
+
+                            </div>
+
+                        </article>
+
+                        <article class="cartao">
+
+                            <div class="cartao-icone">⚡</div>
+
+                            <div class="cartao-corpo">
+
+                                <p class="area">ELETRICIDADE</p>
+                                <h3>Fundamentos de Eletricidade</h3>
+                                <p><strong>Duração:</strong> 80 horas (exemplo)</p>
+
+                                <p>
+                                    Descobre conceitos introdutórios sobre circuitos
+                                    e segurança.
+                                </p>
+
+                                <a href="#detalhes-cursos">Saber mais →</a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <div id="detalhes-cursos" class="informacao-extra">
+
+                        <h3>Informações sobre os cursos</h3>
+
+                        <p>
+                            Estes quatro cursos são apenas exemplos. Para consultar ofertas,
+                            condições de acesso, datas e durações reais, utiliza o
+                            <a href="https://iefponline.iefp.pt/" target="_blank"
+                                rel="noopener noreferrer">IEFP Online</a>.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Notícias -->
+            <section id="noticias" class="secao">
+
+                <div class="container">
+
+                    <p class="sobretitulo">NOVIDADES</p>
+
+                    <h2>Notícias e eventos</h2>
+
+                    <p class="introducao">
+                        Destaques fictícios criados exclusivamente para demonstrar
+                        o aspeto do website.
+                    </p>
+
+                    <div class="cartoes noticias">
+
+                        <article class="cartao cartao-corpo">
+
+                            <p class="data">10/11/2026 · Exemplo</p>
+
+                            <h3>Sessão de orientação profissional</h3>
+
+                            <p>
+                                Uma sessão ilustrativa para apresentar opções de formação
+                                e percursos profissionais.
+                            </p>
+
+                        </article>
+
+                        <article class="cartao cartao-corpo">
+
+                            <p class="data">05/11/2026 · Exemplo</p>
+
+                            <h3>Semana das competências digitais</h3>
+
+                            <p>
+                                Atividades fictícias para promover a aprendizagem
+                                de ferramentas digitais.
+                            </p>
+
+                        </article>
+
+                        <article class="cartao cartao-corpo">
+
+                            <p class="data">29/10/2026 · Exemplo</p>
+
+                            <h3>Encontro com profissionais</h3>
+
+                            <p>
+                                Evento demonstrativo dedicado à partilha de experiências
+                                de trabalho.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Contactos -->
+            <section id="contactos" class="secao secao-alternativa">
+
+                <div class="container">
+
+                    <p class="sobretitulo">FALA CONNOSCO</p>
+
+                    <h2>Contactos</h2>
+
+                    <div class="contactos-flex">
+
+                        <div class="contactos-info">
+
+                            <h3>Serviço de Formação Profissional de Rio Meão</h3>
+
+                            <p>
+                                Para contactos oficiais, morada e horário atualizados,
+                                consulta a página do IEFP.
+                            </p>
+
+                            <a class="botao" href="https://www.iefp.pt/contactos"
+                                target="_blank" rel="noopener noreferrer">
+                                Consultar contactos oficiais
+                            </a>
+
+                            <p class="aviso">
+                                Este website é um projeto de avaliação, não oficial.
+                            </p>
+
+                        </div>
+
+                        <form class="formulario" action="#contactos" method="get">
+
+                            <h3>Formulário demonstrativo</h3>
+
+                            <label for="nome">Nome</label>
+
+                            <input id="nome" name="nome" type="text"
+                                autocomplete="name" required minlength="2"
+                                placeholder="O teu nome">
+
+                            <label for="email">Email</label>
+
+                            <input id="email" name="email" type="email"
+                                autocomplete="email" required
+                                placeholder="nome@exemplo.pt">
+
+                            <label for="assunto">Assunto</label>
+
+                            <input id="assunto" name="assunto" type="text"
+                                required placeholder="Assunto da mensagem">
+
+                            <label for="mensagem">Mensagem</label>
+
+                            <textarea id="mensagem" name="mensagem" rows="5"
+                                required minlength="10"
+                                placeholder="Escreve a tua mensagem..."></textarea>
+
+                            <button class="botao" type="button"
+                                title="Demonstração: o formulário não envia mensagens">
+                                Enviar
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- Rodapé -->
+        <footer class="rodape">
+
+            <div class="container rodape-flex">
+
+                <div>
+
+                    <strong>IEFP Rio Meão</strong>
+
+                    <p>Website não oficial</p>
+                    <p>Autor: André Pereira</p>
+
+                </div>
+
+                <div>
+
+                    <h3>Ligações úteis</h3>
+
+                    <a href="#inicio">Início</a>
+                    <a href="#formacoes">Formações</a>
+                    <a href="#noticias">Notícias</a>
+                    <a href="#contactos">Contactos</a>
+
+                    <a href="https://www.iefp.pt/" target="_blank"
+                        rel="noopener noreferrer">
+                        IEFP oficial
+                    </a>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+
+
