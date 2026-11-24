@@ -1,3 +1,16 @@
+IEFP-Rio-Meao Trabalho final da UFCD de Estilo CSS IEFP Rio Meão — Proposta de reformulação
+
+Aluno: André Pereira
+Turma: UFCD 0154 - Estilos em CSS
+
+Descrição Website reforumlado de página única que apresenta o centro, áreas de formação, notícias demonstrativas e contactos.
+
+Conceito visual Identidade simples e moderna, com azul para os botões e verde para os destaques. Os conteúdos estão divididos em secções e cartões, com navegação por âncoras.
+
+Tecnologias HTML5 e CSS com Flexbox, media queries e variáveis CSS. Sem Bootstrap, optei por fazer sem porque preferi ir rever coisas de CSS que me falhava à memória.
+
+Modo diurno e noturno O modo claro apresenta fundos claros e texto escuro. O modo noturno apresenta fundos escuros e texto claro. A alternância é feita por um checkbox HTML com o seletor CSS :checked e aplica-se a toda a página.
+
 Principais variáveis CSS --fundo (fundo principal), --fundo-secundario (secções), --texto (texto), --destaque (cor de destaque), --cartao (cartões), --botao e --botao-hover (botões), --borda (contornos).
 
 Três transições utilizadas
